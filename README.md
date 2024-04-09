@@ -19,6 +19,12 @@ This is the script that downloads the record from s3 and appends the text to it!
 
 **References:**
 
+Process to test it:
+Install node in your system, run npm install to install all the dependencies in the modules
+
+To run the CDK - execute: npx cdk bootstrap followed by npx cdk deploy
+
+
 1) https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/aws-jsdk-reference.html
 2) https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_action.html
 3) https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html#runInstances-property
