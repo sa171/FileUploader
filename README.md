@@ -14,7 +14,10 @@ This repo consists of 4 modules as below:
 4) my-cdk:
   This package maintains the infrastructure as code, provisions stack and constructs as needed.
 
-References:
+script.py:
+This is the script that downloads the record from s3 and appends the text to it! This script is downloaded and executed by ec2 using SSM in lambda function! 
+
+**References:**
 
 1) https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/aws-jsdk-reference.html
 2) https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_action.html
