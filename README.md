@@ -1,4 +1,4 @@
-This repository is my submission to fovus coding challenge!
+This repository is my submission to Fovus coding challenge!
 
 This repo consists of 4 modules as below:
 
@@ -13,6 +13,8 @@ This repo consists of 4 modules as below:
 
 4) my-cdk:
   This package maintains the infrastructure as code, provisions stack and constructs as needed.
+  To run the CDK - execute: npx cdk bootstrap followed by npx cdk deploy
+
 
 script.py:
 This is the script that downloads the record from s3 and appends the text to it! This script is downloaded and executed by ec2 using SSM in lambda function! 
@@ -22,7 +24,6 @@ This is the script that downloads the record from s3 and appends the text to it!
 Process to test it:
 Install node in your system, run npm install to install all the dependencies in the modules
 
-To run the CDK - execute: npx cdk bootstrap followed by npx cdk deploy
 
 
 1) https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/aws-jsdk-reference.html
